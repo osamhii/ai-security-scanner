@@ -1,3 +1,4 @@
+![CI Security Audit](https://github.com/osamhii/ai-security-scanner/actions/workflows/security-scan.yml/badge.svg)
 # AI-Assisted SAST Scanner (CLI)
 
 An automated static application security testing (SAST) command-line utility built in Python. The tool performs semantic vulnerability analysis on Python source files using the Google GenAI SDK, mapping defects directly to standardized Common Weakness Enumeration (CWE) classifications and enforcing schema-validated output.
