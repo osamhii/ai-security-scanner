@@ -27,8 +27,4 @@ jobs:
         env:
           GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-- name: Execute Security Scanner CLI
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
           python scanner.py samples/vulnerable.py
